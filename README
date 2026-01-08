@@ -13,7 +13,6 @@ This is a simple implementation of the popular Doodle Jump mobile game where pla
 - **Restart:** Press `Space` when game is over
 
 ### Objective
-
 - Keep the doodler jumping on platforms
 - Climb as high as possible to increase your score
 - Avoid falling off the bottom of the screen
@@ -21,7 +20,6 @@ This is a simple implementation of the popular Doodle Jump mobile game where pla
 ## 🚀 Getting Started
 
 ### Prerequisites
-
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - The following image assets in an `Assets` folder:
   - `doodlejumpbg.png` - Background image
@@ -33,7 +31,6 @@ This is a simple implementation of the popular Doodle Jump mobile game where pla
 
 1. Clone or download the project files
 2. Ensure you have the following file structure:
-
 ```
 project-folder/
 │
@@ -84,7 +81,6 @@ project-folder/
 ## 🎯 Game Logic
 
 The game uses `requestAnimationFrame` for smooth animation and implements:
-
 - Gravity-based physics for jumping
 - Collision detection between the doodler and platforms
 - Automatic platform scrolling when the doodler reaches 3/4 of the screen height
@@ -103,15 +99,3 @@ The game uses `requestAnimationFrame` for smooth animation and implements:
 - Create a high score leaderboard
 - Add mobile touch controls
 - Improve scoring mechanism
-
-## 📄 License
-
-This project is open source and available for educational purposes.
-
-## 👨‍💻 Author
-
-Created as a learning project to understand HTML5 Canvas and game development basics.
-
----
-
-Enjoy playing and feel free to modify the code to add your own features!

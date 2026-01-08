@@ -1,0 +1,8 @@
+body{
+    background-color: #123;
+    text-align: center;
+}
+
+#board{
+    background-image: url("./Assets/doodlejumpbg.png");
+}

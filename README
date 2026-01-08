@@ -1,0 +1,117 @@
+# Doodle Jump Game
+
+A browser-based recreation of the classic Doodle Jump game built with vanilla JavaScript and HTML5 Canvas.
+
+## 📋 Description
+
+This is a simple implementation of the popular Doodle Jump mobile game where players control a character that jumps automatically and must land on platforms to climb higher while avoiding falling off the screen.
+
+## 🎮 How to Play
+
+- **Move Left:** Press `A` or `←` (Left Arrow)
+- **Move Right:** Press `D` or `→` (Right Arrow)
+- **Restart:** Press `Space` when game is over
+
+### Objective
+
+- Keep the doodler jumping on platforms
+- Climb as high as possible to increase your score
+- Avoid falling off the bottom of the screen
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- The following image assets in an `Assets` folder:
+  - `doodlejumpbg.png` - Background image
+  - `doodler-right.png` - Character facing right
+  - `doodler-left.png` - Character facing left
+  - `platform.png` - Platform image
+
+### Installation
+
+1. Clone or download the project files
+2. Ensure you have the following file structure:
+
+```
+project-folder/
+│
+├── index.html
+├── style.css
+├── main.js
+└── Assets/
+    ├── doodlejumpbg.png
+    ├── doodler-right.png
+    ├── doodler-left.png
+    └── platform.png
+```
+
+3. Open `index.html` in your web browser
+
+## 🛠️ Technical Details
+
+### Game Mechanics
+
+- **Canvas Size:** 360px × 576px
+- **Character Size:** 46px × 46px
+- **Platform Size:** 60px × 18px
+- **Initial Jump Velocity:** -8
+- **Gravity:** 0.4
+- **Horizontal Movement Speed:** 4
+
+### Features
+
+- Smooth character movement with left/right animations
+- Automatic jumping mechanics
+- Dynamic platform generation
+- Screen wrapping (character reappears on opposite side)
+- Score tracking system
+- Game over detection
+- Restart functionality
+
+## 📝 Code Structure
+
+- **index.html** - Main HTML structure with canvas element
+- **style.css** - Basic styling for the game board
+- **main.js** - Core game logic including:
+  - Game initialization
+  - Character movement and physics
+  - Platform generation and collision detection
+  - Score calculation
+  - Game loop
+
+## 🎯 Game Logic
+
+The game uses `requestAnimationFrame` for smooth animation and implements:
+
+- Gravity-based physics for jumping
+- Collision detection between the doodler and platforms
+- Automatic platform scrolling when the doodler reaches 3/4 of the screen height
+- Platform recycling system to maintain performance
+
+## 🐛 Known Issues
+
+- Score calculation uses random values which may not reflect actual game progress accurately
+- Consider implementing a distance-based scoring system for better gameplay
+
+## 🔮 Future Improvements
+
+- Add different platform types (moving, breaking, spring platforms)
+- Implement power-ups
+- Add sound effects and background music
+- Create a high score leaderboard
+- Add mobile touch controls
+- Improve scoring mechanism
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+## 👨‍💻 Author
+
+Created as a learning project to understand HTML5 Canvas and game development basics.
+
+---
+
+Enjoy playing and feel free to modify the code to add your own features!
